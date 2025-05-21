@@ -1,0 +1,665 @@
+[
+    {
+      "nome": "Salada Caprese",
+      "ingredientes": [
+        "Tomate",
+        "Mussarela de búfala",
+        "Manjericão",
+        "Azeite extra virgem",
+        "Sal",
+        "Pimenta do reino"
+      ],
+      "preparo": "Corte os tomates e a mussarela em fatias. Arrume em um prato alternando as fatias de tomate e mussarela. Adicione as folhas de manjericão, tempere com azeite, sal e pimenta do reino a gosto."
+    },
+    {
+      "nome": "Risoto de Cogumelos",
+      "ingredientes": [
+        "Arroz arbóreo",
+        "Cogumelos frescos (shitake, paris, portobello)",
+        "Cebola",
+        "Alho",
+        "Vinho branco seco",
+        "Caldo de legumes",
+        "Manteiga",
+        "Queijo parmesão ralado",
+        "Azeite extra virgem",
+        "Sal",
+        "Pimenta do reino"
+      ],
+      "preparo": "Refogue a cebola e o alho em azeite. Adicione os cogumelos picados e refogue por alguns minutos. Acrescente o arroz arbóreo e refogue por mais um minuto. Adicione o vinho branco e deixe evaporar. Adicione o caldo de legumes aos poucos, mexendo sempre, até o arroz ficar cozido. Finalize com manteiga, queijo parmesão ralado, sal e pimenta do reino a gosto."
+    },
+    {
+      "nome": "Feijoada",
+      "ingredientes": [
+        "Feijão preto",
+        "Linguiça calabresa",
+        "Paio",
+        "Carne seca",
+        "Costela salgada",
+        "Lombo salgado",
+        "Orelha de porco salgada",
+        "Pé de porco salgado",
+        "Louro",
+        "Alho",
+        "Cebola",
+        "Pimenta do reino",
+        "Sal"
+      ],
+      "preparo": "Cozinhe o feijão preto na panela de pressão por cerca de 30 minutos. Enquanto isso, dessalgue as carnes salgadas e corte em pedaços. Em uma panela separada, frite a linguiça calabresa e o paio. Adicione as carnes salgadas e refogue por alguns minutos. Acrescente o feijão cozido com o caldo, o louro, o alho picado, a cebola picada, a pimenta do reino e o sal. Cozinhe em fogo baixo por cerca de 1 hora, mexendo ocasionalmente. Sirva com arroz branco, couve refogada, farofa e laranja."
+    },
+    {
+      "nome": "Moqueca de Camarão",
+      "ingredientes": [
+        "Camarão limpo",
+        "Cebola",
+        "Alho",
+        "Pimentão vermelho",
+        "Pimentão amarelo",
+        "Tomate",
+        "Leite de coco",
+        "Azeite de dendê",
+        "Coentro",
+        "Sal",
+        "Pimenta do reino"
+      ],
+      "preparo": "Tempere o camarão com sal e pimenta do reino. Em uma panela, refogue a cebola, o alho e os pimentões picados em azeite de dendê. Adicione os tomates picados e refogue por mais alguns minutos. Acrescente o leite de coco e cozinhe em fogo baixo por cerca de 10 minutos. Adicione o camarão e cozinhe por mais alguns minutos, até ficar rosado. Finalize com coentro picado. Sirva com arroz branco e farofa."
+    },
+    {
+      "nome": "Brigadeiro",
+      "ingredientes": [
+        "Leite condensado",
+        "Chocolate em pó",
+        "Manteiga",
+        "Chocolate granulado"
+      ],
+      "preparo": "Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga. Cozinhe em fogo baixo, mexendo sempre, até desgrudar do fundo da panela. Despeje em um prato untado com manteiga e deixe esfriar. Enrole os brigadeiros e passe no chocolate granulado."
+    },
+    {
+      "nome": "Bolo de Chocolate",
+      "ingredientes": [
+        "Farinha de trigo",
+        "Cacau em pó",
+        "Açúcar",
+        "Ovos",
+        "Leite",
+        "Óleo",
+        "Fermento em pó",
+        "Sal"
+      ],
+      "preparo": "Preaqueça o forno a 180°C. Misture os ingredientes secos (farinha, cacau, açúcar, fermento e sal). Adicione os ovos, o leite e o óleo. Bata até obter uma massa homogênea. Coloque em uma forma untada e asse por cerca de 30 minutos. Deixe esfriar antes de desenformar."
+    },
+    {
+      "nome": "Pizza Margherita",
+      "ingredientes": [
+        "Massa de pizza",
+        "Molho de tomate",
+        "Mussarela de búfala",
+        "Manjericão",
+        "Azeite extra virgem",
+        "Sal"
+      ],
+      "preparo": "Preaqueça o forno a 250°C. Abra a massa de pizza em uma superfície enfarinhada. Cubra com molho de tomate, mussarela de búfala fatiada e folhas de manjericão. Regue com azeite e salpique sal a gosto. Asse por 10-15 minutos ou até a massa ficar crocante e dourada."
+    },
+    {
+      "nome": "Panqueca Americana",
+      "ingredientes": [
+        "Farinha de trigo",
+        "Açúcar",
+        "Fermento em pó",
+        "Leite",
+        "Ovos",
+        "Manteiga derretida",
+        "Essência de baunilha"
+      ],
+      "preparo": "Misture os ingredientes secos em uma tigela. Em outra tigela, bata os ovos, leite, manteiga e essência de baunilha. Misture ambos até formar uma massa homogênea. Aqueça uma frigideira untada e despeje porções da massa. Cozinhe por 2-3 minutos de cada lado ou até dourar."
+    },
+    {
+      "nome": "Mousse de Maracujá",
+      "ingredientes": [
+        "Polpa de maracujá",
+        "Leite condensado",
+        "Creme de leite",
+        "Gelatina sem sabor"
+      ],
+      "preparo": "Hidrate a gelatina conforme as instruções. Bata no liquidificador a polpa de maracujá, leite condensado, creme de leite e gelatina hidratada. Coloque em taças e leve à geladeira por pelo menos 2 horas. Sirva gelado."
+    },
+    {
+      "nome": "Spaghetti ao Alho e Óleo",
+      "ingredientes": [
+        "Spaghetti",
+        "Alho",
+        "Azeite de oliva",
+        "Pimenta calabresa",
+        "Salsinha",
+        "Sal"
+      ],
+      "preparo": "Cozinhe o spaghetti conforme as instruções da embalagem. Enquanto isso, em uma frigideira, aqueça o azeite e frite o alho até dourar. Adicione a pimenta calabresa e refogue por mais 1 minuto. Misture o spaghetti cozido e salteie com o molho de alho e azeite. Finalize com salsinha picada."
+    },
+    {
+      "nome": "Torta de Limão",
+      "ingredientes": [
+        "Biscoito de maisena",
+        "Manteiga derretida",
+        "Leite condensado",
+        "Suco de limão",
+        "Creme de leite",
+        "Raspas de limão"
+      ],
+      "preparo": "Triture os biscoitos de maisena e misture com a manteiga derretida para formar a base. Forre o fundo de uma forma com essa mistura e leve ao forno por 10 minutos. Para o recheio, misture o leite condensado, o suco de limão e o creme de leite. Despeje sobre a base já assada e leve à geladeira por 2 horas. Finalize com raspas de limão."
+    },
+    {
+      "nome": "Coxinha",
+      "ingredientes": [
+          "Frango desfiado",
+          "Farinha de trigo",
+          "Leite",
+          "Manteiga",
+          "Cebola",
+          "Alho",
+          "Sal",
+          "Pimenta do reino",
+          "Farinha de rosca",
+          "Óleo para fritar"
+      ],
+      "preparo": "Refogue o frango desfiado com cebola e alho. Prepare uma massa com farinha de trigo, leite, manteiga e temperos. Modele as coxinhas, recheie com o frango e empane na farinha de rosca. Frite até dourar."
+  },
+  {
+      "nome": "Escondidinho de Carne Seca",
+      "ingredientes": [
+          "Carne seca desfiada",
+          "Purê de batata",
+          "Queijo coalho",
+          "Cebola",
+          "Alho",
+          "Azeite",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Refogue a carne seca com cebola e alho. Em uma forma, faça camadas alternadas de purê de batata e carne seca, terminando com purê. Cubra com queijo coalho e leve ao forno até dourar."
+  },
+  {
+      "nome": "Frango à Parmegiana",
+      "ingredientes": [
+          "Filé de frango",
+          "Farinha de trigo",
+          "Ovos",
+          "Farinha de rosca",
+          "Molho de tomate",
+          "Queijo mussarela",
+          "Queijo parmesão",
+          "Óleo para fritar",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Tempere o frango e passe na farinha de trigo, ovos e farinha de rosca. Frite até dourar. Cubra com molho de tomate e queijo mussarela, depois leve ao forno até o queijo derreter. Finalize com queijo parmesão."
+  },
+  {
+      "nome": "Torta de Frango",
+      "ingredientes": [
+          "Frango desfiado",
+          "Massa de torta pronta",
+          "Requeijão",
+          "Cebola",
+          "Alho",
+          "Milho verde",
+          "Ervilha",
+          "Queijo ralado",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Refogue o frango desfiado com cebola e alho. Adicione o milho e a ervilha. Em uma forma, coloque a massa, recheie com o frango e cubra com requeijão e queijo. Asse até dourar."
+  },
+  {
+      "nome": "Macarrão à Carbonara",
+      "ingredientes": [
+          "Espaguete",
+          "Ovos",
+          "Bacon",
+          "Queijo parmesão",
+          "Alho",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Cozinhe o macarrão. Em uma panela, frite o bacon e o alho. Misture os ovos batidos com o queijo parmesão. Junte o macarrão escorrido com o bacon e o molho de ovos, mexendo rapidamente para não cozinhar os ovos."
+  },
+  {
+      "nome": "Salada de Quinoa",
+      "ingredientes": [
+          "Quinoa",
+          "Tomate cereja",
+          "Pepino",
+          "Cebola roxa",
+          "Alho",
+          "Azeite",
+          "Limão",
+          "Salsinha",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Cozinhe a quinoa e deixe esfriar. Misture com os tomates, pepino, cebola roxa e temperos. Regue com azeite e limão."
+  },
+  {
+      "nome": "Pão de Queijo",
+      "ingredientes": [
+          "Polvilho doce",
+          "Queijo minas padrão",
+          "Leite",
+          "Óleo",
+          "Ovos",
+          "Sal"
+      ],
+      "preparo": "Misture todos os ingredientes até formar uma massa. Modele bolinhas e asse a 180°C por cerca de 20 minutos."
+  },
+  {
+      "nome": "Lasanha à Bolonhesa",
+      "ingredientes": [
+          "Massa para lasanha",
+          "Carne moída",
+          "Molho de tomate",
+          "Cebola",
+          "Alho",
+          "Queijo mussarela",
+          "Queijo parmesão",
+          "Azeite",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Prepare o molho bolonhesa refogando carne, cebola, alho e molho de tomate. Em uma forma, alterne camadas de massa, molho bolonhesa e queijos. Asse até borbulhar."
+  },
+  {
+      "nome": "Pudim de Leite Condensado",
+      "ingredientes": [
+          "Leite condensado",
+          "Leite",
+          "Ovos",
+          "Açúcar",
+          "Essência de baunilha"
+      ],
+      "preparo": "Misture todos os ingredientes e coloque em uma forma caramelizada. Cozinhe em banho-maria por cerca de 1 hora. Deixe esfriar antes de desenformar."
+  },
+  {
+      "nome": "Brigadeiro de Colher",
+      "ingredientes": [
+          "Leite condensado",
+          "Chocolate em pó",
+          "Manteiga"
+      ],
+      "preparo": "Misture os ingredientes e cozinhe em fogo baixo até engrossar. Sirva ainda quente em colheradas."
+  },
+  {
+      "nome": "Sopa de Abóbora",
+      "ingredientes": [
+          "Abóbora",
+          "Cebola",
+          "Alho",
+          "Caldo de legumes",
+          "Creme de leite",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Cozinhe a abóbora com cebola e alho. Bata no liquidificador com o caldo de legumes até ficar cremosa. Finalize com creme de leite e tempere."
+  },
+  {
+      "nome": "Bife à Milanesa",
+      "ingredientes": [
+          "Bifes",
+          "Farinha de trigo",
+          "Ovos",
+          "Farinha de rosca",
+          "Sal",
+          "Pimenta do reino",
+          "Óleo para fritar"
+      ],
+      "preparo": "Tempere os bifes e passe na farinha de trigo, ovos batidos e farinha de rosca. Frite até dourar."
+  },
+  {
+      "nome": "Taco Mexicano",
+      "ingredientes": [
+          "Tortilhas de milho",
+          "Carne moída",
+          "Alface",
+          "Tomate",
+          "Queijo cheddar",
+          "Molho de pimenta",
+          "Sour cream"
+      ],
+      "preparo": "Refogue a carne moída com temperos. Monte os tacos colocando carne, alface, tomate, queijo e molho nas tortilhas."
+  },
+  {
+      "nome": "Churros",
+      "ingredientes": [
+          "Farinha de trigo",
+          "Água",
+          "Óleo",
+          "Açúcar",
+          "Canela",
+          "Leite condensado"
+      ],
+      "preparo": "Misture a farinha com água até formar uma massa. Modele os churros e frite. Passe-os no açúcar com canela e sirva com leite condensado."
+  },
+  {
+      "nome": "Arroz de Pato",
+      "ingredientes": [
+          "Arroz",
+          "Pato",
+          "Cebola",
+          "Alho",
+          "Vinho branco",
+          "Ervas aromáticas",
+          "Caldo de galinha",
+          "Sal"
+      ],
+      "preparo": "Cozinhe o pato com vinho, caldo e ervas. Desfie a carne e reserve. Cozinhe o arroz e misture com o pato desfiado. Sirva quente."
+  },
+  {
+      "nome": "Salmão Grelhado",
+      "ingredientes": [
+          "Filé de salmão",
+          "Alho",
+          "Limão",
+          "Azeite",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Tempere o salmão com alho, limão, azeite, sal e pimenta. Grelhe até ficar dourado dos dois lados."
+  },
+  {
+      "nome": "Caldo Verde",
+      "ingredientes": [
+          "Batata",
+          "Couve",
+          "Linguiça calabresa",
+          "Alho",
+          "Cebola",
+          "Azeite",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Cozinhe as batatas e amasse. Refogue a cebola e o alho, adicione as linguiças e cozinhe até dourar. Junte as batatas amassadas e a couve. Cozinhe até a couve amolecer."
+  },
+  {
+      "nome": "Bacalhau à Brás",
+      "ingredientes": [
+          "Bacalhau desfiado",
+          "Batatas",
+          "Ovos",
+          "Cebola",
+          "Alho",
+          "Azeitonas",
+          "Salsinha",
+          "Azeite"
+      ],
+      "preparo": "Refogue o bacalhau com cebola e alho. Junte as batatas fritas e os ovos batidos. Finalize com azeitonas e salsinha."
+  },
+  {
+      "nome": "Mignon ao Molho Madeira",
+      "ingredientes": [
+          "Filé mignon",
+          "Vinho madeira",
+          "Alho",
+          "Cebola",
+          "Manteiga",
+          "Caldo de carne",
+          "Sal",
+          "Pimenta do reino"
+      ],
+      "preparo": "Grelhe os filés de mignon. Prepare o molho com vinho, caldo e temperos. Sirva o filé com o molho madeira por cima."
+  },{
+    "nome": "Panquecas Americanas",
+    "ingredientes": [
+        "Farinha de trigo",
+        "Leite",
+        "Ovos",
+        "Açúcar",
+        "Fermento em pó",
+        "Sal",
+        "Manteiga derretida"
+    ],
+    "preparo": "Misture todos os ingredientes até formar uma massa homogênea. Cozinhe em uma frigideira untada até dourar dos dois lados. Sirva com mel ou frutas."
+},
+{
+    "nome": "Feijão Tropeiro",
+    "ingredientes": [
+        "Feijão carioca",
+        "Linguiça calabresa",
+        "Bacon",
+        "Farinha de mandioca",
+        "Ovos",
+        "Cebola",
+        "Alho",
+        "Sal",
+        "Pimenta do reino"
+    ],
+    "preparo": "Cozinhe o feijão e reserve. Frite o bacon, linguiça, cebola e alho. Misture o feijão cozido com os temperos e a farinha. Finalize com ovos mexidos."
+},
+{
+    "nome": "Chili com Carne",
+    "ingredientes": [
+        "Carne moída",
+        "Feijão vermelho",
+        "Tomate",
+        "Cebola",
+        "Alho",
+        "Pimentão",
+        "Cominho",
+        "Pimenta chili",
+        "Caldo de carne",
+        "Azeite"
+    ],
+    "preparo": "Refogue a carne moída com cebola, alho e pimentão. Adicione os tomates picados, feijão, especiarias e caldo. Cozinhe até apurar os sabores."
+},
+{
+    "nome": "Bolinhos de Bacalhau",
+    "ingredientes": [
+        "Bacalhau dessalgado",
+        "Batata",
+        "Alho",
+        "Cebola",
+        "Salsinha",
+        "Farinha de trigo",
+        "Ovos",
+        "Óleo para fritar"
+    ],
+    "preparo": "Coe o bacalhau e misture com a batata cozida e amassada. Adicione alho, cebola, salsinha e ovos. Modele bolinhos e frite até dourar."
+},
+{
+    "nome": "Empanada Chilena",
+    "ingredientes": [
+        "Carne moída",
+        "Ovos",
+        "Cebola",
+        "Azeitonas",
+        "Passas",
+        "Ovo cozido",
+        "Farinha de trigo",
+        "Azeite",
+        "Sal",
+        "Pimenta do reino"
+    ],
+    "preparo": "Refogue a carne com cebola, passas, azeitonas e ovos cozidos. Modele a massa e recheie com o preparo. Asse até dourar."
+},
+{
+    "nome": "Cuscuz Paulista",
+    "ingredientes": [
+        "Farinha de milho",
+        "Camarões",
+        "Peixe",
+        "Ervilha",
+        "Cebola",
+        "Alho",
+        "Tomate",
+        "Azeitona",
+        "Caldo de peixe",
+        "Salsinha"
+    ],
+    "preparo": "Refogue os ingredientes, depois adicione o caldo de peixe e a farinha de milho. Cozinhe até que a mistura fique bem ligada e compacte em uma forma."
+},
+{
+    "nome": "Pão Sírio",
+    "ingredientes": [
+        "Farinha de trigo",
+        "Fermento biológico",
+        "Sal",
+        "Água",
+        "Azeite"
+    ],
+    "preparo": "Misture os ingredientes até formar uma massa. Modele os pães, deixando descansar e depois asse até dourar."
+},
+{
+    "nome": "Moqueca Baiana",
+    "ingredientes": [
+        "Camarão",
+        "Cebola",
+        "Pimentão",
+        "Alho",
+        "Coentro",
+        "Leite de coco",
+        "Azeite de dendê",
+        "Tomate",
+        "Sal",
+        "Pimenta do reino"
+    ],
+    "preparo": "Tempere o camarão e frite o alho e cebola. Adicione os pimentões e tomates, depois o leite de coco e azeite de dendê. Cozinhe até engrossar."
+},
+{
+    "nome": "Torta de Maçã",
+    "ingredientes": [
+        "Maçã",
+        "Massa folhada",
+        "Açúcar",
+        "Canela",
+        "Manteiga",
+        "Ovo"
+    ],
+    "preparo": "Recheie a massa com maçã cortada, açúcar e canela. Cubra com mais massa e asse até dourar."
+},
+{
+    "nome": "Creme Brulée",
+    "ingredientes": [
+        "Creme de leite",
+        "Leite",
+        "Ovos",
+        "Açúcar",
+        "Baunilha",
+        "Açúcar mascavo"
+    ],
+    "preparo": "Misture os ingredientes e leve ao forno em banho-maria até firmar. Polvilhe açúcar mascavo e queime com um maçarico."
+},
+{
+    "nome": "Bacalhau à Gomes de Sá",
+    "ingredientes": [
+        "Bacalhau dessalgado",
+        "Batata",
+        "Cebola",
+        "Alho",
+        "Azeite",
+        "Azeitonas",
+        "Salsinha"
+    ],
+    "preparo": "Desfie o bacalhau e cozinhe as batatas. Refogue o bacalhau com cebola, alho e azeite. Misture com batatas e finalize com azeitonas e salsinha."
+},
+{
+    "nome": "Robalo Grelhado",
+    "ingredientes": [
+        "Robalo",
+        "Alho",
+        "Limão",
+        "Azeite",
+        "Sal",
+        "Pimenta do reino"
+    ],
+    "preparo": "Tempere o robalo com alho, limão, azeite, sal e pimenta. Grelhe até ficar dourado dos dois lados."
+},
+{
+    "nome": "Quiche de Legumes",
+    "ingredientes": [
+        "Massa folhada",
+        "Ovos",
+        "Creme de leite",
+        "Abobrinha",
+        "Cebola",
+        "Tomate",
+        "Queijo parmesão",
+        "Sal",
+        "Pimenta do reino"
+    ],
+    "preparo": "Refogue os legumes e prepare a mistura de ovos e creme de leite. Recheie a massa com os legumes e a mistura, depois asse até dourar."
+},
+{
+    "nome": "Torta de Frango com Requeijão",
+    "ingredientes": [
+        "Massa de torta pronta",
+        "Frango desfiado",
+        "Requeijão",
+        "Cebola",
+        "Alho",
+        "Queijo mussarela",
+        "Salsinha"
+    ],
+    "preparo": "Refogue o frango com cebola e alho. Recheie a massa com o frango e requeijão. Cubra com queijo e asse até dourar."
+},
+{
+    "nome": "Sushi",
+    "ingredientes": [
+        "Arroz para sushi",
+        "Vinagre",
+        "Açúcar",
+        "Sal",
+        "Alga nori",
+        "Peixe fresco",
+        "Pepino",
+        "Abacate"
+    ],
+    "preparo": "Cozinhe o arroz e tempere com vinagre, açúcar e sal. Modele os sushis com peixe, pepino e abacate, enrolados nas algas."
+},
+{
+    "nome": "Pizza Margherita",
+    "ingredientes": [
+        "Massa de pizza",
+        "Molho de tomate",
+        "Queijo mussarela",
+        "Manjericão",
+        "Azeite",
+        "Sal"
+    ],
+    "preparo": "Modele a massa, adicione o molho, o queijo e asse até dourar. Finalize com manjericão e azeite."
+},
+{
+    "nome": "Risoto de Limão Siciliano",
+    "ingredientes": [
+        "Arroz arbóreo",
+        "Limão siciliano",
+        "Caldo de galinha",
+        "Cebola",
+        "Alho",
+        "Manteiga",
+        "Queijo parmesão"
+    ],
+    "preparo": "Refogue a cebola e o alho, adicione o arroz e vá incorporando o caldo aos poucos. Finalize com manteiga, queijo e raspas de limão."
+},
+{
+    "nome": "Tacos de Carne",
+    "ingredientes": [
+        "Carne moída",
+        "Tortilhas de milho",
+        "Alface",
+        "Queijo cheddar",
+        "Tomate",
+        "Molho de pimenta",
+        "Creme azedo"
+    ],
+    "preparo": "Tempere a carne e frite até dourar. Monte os tacos com carne, alface, tomate, queijo e molho."
+},
+{
+    "nome": "Nhoque de Batata",
+    "ingredientes": [
+        "Batata",
+        "Farinha de trigo",
+        "Ovos",
+        "Queijo parmesão",
+        "Sal",
+        "Manteiga"
+    ],
+    "preparo": "Misture as batatas cozidas com farinha e ovos até formar uma massa. Modele os nhoques e cozinhe até subirem à superfície. Sirva com manteiga."
+}
+  ]
