@@ -1,8 +1,63 @@
-# React + Vite
+# 🧑‍🍳 Can I Cook It? — Encontre receitas com os ingredientes que você tem!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um aplicativo web que permite ao usuário digitar ingredientes disponíveis em casa e, com base nisso, encontrar receitas através da **API da Spoonacular**.  
+A interface é responsiva, moderna e utiliza o estilo **Neumorfismo**, com foco na simplicidade e usabilidade.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
+
+- ✅ Adicione ingredientes manualmente
+- 🔍 Busque receitas usando a [API da Spoonacular](https://spoonacular.com/)
+- 📋 Veja detalhes da receita selecionada
+- 💡 Interface responsiva com design em Neumorfismo
+
+---
+
+## 📸 Preview
+
+![preview](/src/assets/preview.png) <!-- Substitua com um caminho válido ou link -->
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/) (com customizações para Neumorfismo)
+- [Spoonacular API](https://spoonacular.com/food-api)
+- [Axios](https://axios-http.com/)
+
+---
+
+## 📦 Como rodar o projeto localmente
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/recipefinder.git
+cd recipefinder
+
+# 2. Instale as dependências
+npm install
+
+# 3. Crie um arquivo .env com sua chave da API Spoonacular
+echo "VITE_SPOONACULAR_API_KEY=SUACHAVEAQUI" > .env
+
+# 4. Inicie o projeto
+npm run dev
+
+---
+
+src/
+│
+├── assets/              # Ícones SVG utilizados no app
+├── components/
+│   └── Main.jsx         # Componente principal com toda a lógica
+├── recipes.json         # Backup local de receitas (não usado com API)
+├── App.jsx              # Componente raiz
+└── main.jsx             # Entrada principal da aplicação
+
+---
+
+📄 Licença
+Este projeto está sob a licença MIT.
+Feito por Davi Marques.
