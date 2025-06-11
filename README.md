@@ -45,19 +45,12 @@ echo "VITE_SPOONACULAR_API_KEY=SUACHAVEAQUI" > .env
 # 4. Inicie o projeto
 npm run dev
 
+```
 ---
 
-src/
-│
-├── assets/              # Ícones SVG utilizados no app
-├── components/
-│   └── Main.jsx         # Componente principal com toda a lógica
-├── recipes.json         # Backup local de receitas (não usado com API)
-├── App.jsx              # Componente raiz
-└── main.jsx             # Entrada principal da aplicação
+## 
 
----
+## 📄 Licença
 
-📄 Licença
 Este projeto está sob a licença MIT.
 Feito por Davi Marques.
