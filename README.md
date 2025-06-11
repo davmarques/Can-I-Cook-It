@@ -3,6 +3,8 @@
 Este é um aplicativo web que permite ao usuário digitar ingredientes disponíveis em casa e, com base nisso, encontrar receitas através da **API da Spoonacular**.  
 A interface é responsiva, moderna e utiliza o estilo **Neumorfismo**, com foco na simplicidade e usabilidade.
 
+[Acesse Aqui](https://can-i-cook-it.vercel.app/)
+
 ---
 
 ## 🚀 Funcionalidades
