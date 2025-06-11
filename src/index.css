@@ -1,229 +1,159 @@
-* {
-  padding: 0;
-  margin: 0;
-  /* border: 1px solid black; */
-  box-sizing: border-box;
-  font-family: Inter, sans-serif;
+@import "tailwindcss";
+
+html {
+  background-color: #E0E0E0;
 }
 
 :root {
-  --main-bg: #FFFFFF;
-  --secondary-bg:#EAF4E1;
-  --green-btn: #2F5233;
-  --grey-font: #4A4A4A;
-  --orange: #FFA500;
+  --main-bg: #E0E0E0;
+  --btn-bg: #7594F4;
+
+  /* Base Neumorfismo */
+  --neu-bg: #E0E0E0;
+  --neu-radius: 12px;
+
+  /* Botão primário */
+  --btn-primary-bg: #A3BFFA;
+  --btn-primary-shadow-dark: 8px 8px 16px #7594F4;
+  --btn-primary-shadow-light: -8px -8px 16px #D6E0FF;
+
+  /* Botão secundário */
+  --btn-secondary-bg: #FFBFA3;
+  --btn-secondary-shadow-dark: 8px 8px 16px #F48E75;
+  --btn-secondary-shadow-light: -8px -8px 16px #FFD6D0;
+
+  /* Input */
+  --neu-bg: #e0e0e0;
+  --neu-radius: 12px;
+  --neu-shadow-light: -6px -6px 12px #ffffff;
+  --neu-shadow-dark: 6px 6px 12px #bebebe;
+  --neu-focus-shadow-light: -4px -4px 8px #ffffff;
+  --neu-focus-shadow-dark: 4px 4px 8px #a1a1a1;
+  --neu-text-color: #333333;
 }
 
-body {
-  background-color: var(--secondary-bg);
+.bg-neumorph {
+  background: #e0e0e0;
+  box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+  border-radius: 20px;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  padding: 2rem;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
-  background-color: var(--main-bg);
-  color: var(--green-btn);
+.bg-neumorph-inset {
+  background: #e0e0e0;
+  box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
+  border-radius: 20px;
 }
 
-header img {
-  width: 3.2rem;
+.header {
+  background: #e0e0e0;
+  box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+  border-radius: 16px;
+  padding: 24px 48px;
 }
 
-header h1 {
-  font-weight: 400;
-  font-size: 2.5rem;
+.btn-primary {
+  background: var(--btn-primary-bg);
+  border-radius: var(--neu-radius);
+  box-shadow: var(--btn-primary-shadow-dark), var(--btn-primary-shadow-light);
+  padding: 12px 28px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
-main {
-  padding: 30px 30px;
-  margin: 1rem;
-  background-color: #FFFFFF;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 12px;
+.btn-primary:active {
+  box-shadow: inset var(--btn-primary-shadow-dark), inset var(--btn-primary-shadow-light);
+  background: #8AA1F9;
+  /* leve escurecimento */
 }
 
-main ul {
-  display: flex;
-  flex-direction: column;
-  gap: .6rem;
-  list-style: none;
-  margin: 1rem 4rem;
-  justify-content: space-between;
+.btn-primary:hover {
+  background: #B0C2FF;
+  /* leve clareamento */
 }
 
-.add-ingredient-form {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  height: 38px;
+.btn-secondary {
+  background: var(--btn-secondary-bg);
+  border-radius: var(--neu-radius);
+  box-shadow: var(--btn-secondary-shadow-dark), var(--btn-secondary-shadow-light);
+  padding: 12px 28px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
-.add-ingredient-form input {
-  border-radius: 6px;
-  border: 1px solid #D1D5DB;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-  flex-grow: 1;
-  min-width: 150px;
+.btn-secondary:active {
+  box-shadow: inset var(--btn-secondary-shadow-dark), inset var(--btn-secondary-shadow-light);
+  background: #F08265;
+  /* escurecimento leve */
+}
+
+.btn-secondary:hover {
+  background: #FFC3B3;
+  /* clareamento leve */
+}
+
+.neu-input {
+  background: var(--neu-bg);
+  border-radius: var(--neu-radius);
+  box-shadow: inset var(--neu-shadow-dark), var(--neu-shadow-light);
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: var(--neu-text-color);
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  width: 100%;
   max-width: 400px;
-  background-color: var(--secondary-bg);
-  text-align: center;
+  font-family: inherit;
 }
 
-.add-ingredient-form button {
-  border-radius: 6px;
+.neu-input:focus {
+  box-shadow: var(--neu-focus-shadow-dark), var(--neu-focus-shadow-light);
+}
+
+.icon-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--btn-secondary-bg);
+  box-shadow: var(--btn-secondary-shadow-dark), var(--btn-secondary-shadow-light);
   border: none;
-  background-color: var(--green-btn);
-  color: #FAFAF8;
-  width: 100px;
-  font-size: 0.875rem;
-  font-weight: 500;
-}
-
-.add-ingredient-form button:hover {
-  color: var(--green-btn);
-  background-color: #FAFAF8;
-  border: 2px solid var(--green-btn);
-  cursor: pointer;
-}
-
-/* .add-ingredient-form button::before {
-  content: "+";
-  margin-right: 5px;
-} */
-
-
-
-.ingredient-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.1rem;
-  padding: 0.5rem .5rem 0.5rem 1rem;
-  background-color: var(--secondary-bg);
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 12px;
-  
-}
-
-.delete-button {
-  display: flex;
-  border-radius: 6px;
-  padding: 0.5rem;
-  border-radius: 6px;
-  border: none;
-  background-color: var(--green-btn);
-  justify-content: center;
-  color: #FAFAF8;
-  width: 80px;
-  font-size: 0.875rem;
-  font-weight: 500;
-}
-
-.delete-button:hover {
-  color: var(--green-btn);
-  background-color: #FAFAF8;
-  border: 1px solid var(--green-btn);
-  transform: scale(.9);
-  cursor: pointer;
-}
-
-.search-button {
-  display: flex;
-  margin: 1rem auto;
-  display: flex;
-  border-radius: 6px;
-  padding: 0.8rem;
-  border-radius: 6px;
-  border: none;
-  background-color: var(--green-btn);
-  justify-content: center;
-  color: #FAFAF8;
-  font-size: 1.1rem;
-  font-weight: 500;
-}
-
-.search-button:hover {
-  color: var(--green-btn);
-  background-color: #FAFAF8;
-  border: 2px solid var(--green-btn);
-  cursor: pointer;
-}
-
-.recipe-details {
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  background-color: var(--secondary-bg);
-  border-radius: 12px;
-  padding: 1rem;
-}
-
-.recipe-details h2 {
-  padding: 1rem 2rem 1.5rem 2rem;
-  font-size: 1.6rem;
-  text-align: center;
-}
-
-.recipe-details p {
-  padding: .7rem;
-  text-align: justify;
-}
-
-.recipe-details button {
-  display: flex;
-  margin: 1rem auto;
-  padding: .7rem;
-  color: #FAFAF8;
-  background-color: var(--green-btn);
-  border: 1px solid #141413;
-  border-radius: 12px;
-  cursor: pointer;
-}
-
-.recipe-details button:hover {
-  color: var(--green-btn);
-  background-color: #FAFAF8;
-  border: 2px solid var(--green-btn)
-}
-
-.filtered-recipes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-
-}
-
-.filtered-recipes h2 {
-}
-
-.filtered-recipes ul {
-
-}
-
-.filtered-recipes li {
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  background-color: var(--secondary-bg);
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding: 1rem;
+  cursor: pointer;
+  transition:
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.icon-btn:active {
+  box-shadow: inset var(--btn-secondary-shadow-dark), inset var(--btn-secondary-shadow-light);
+  background: #F08265;
+}
+
+.item {
+  background: #e0e0e0;
   border-radius: 12px;
+  box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+  transition:
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
-.filtered-recipes li:hover {
-  transform: scale(1.1);
-  font-size: 1.1rem;
-  font-weight: 500;
-}
-
-
-.filtered-recipes p {
-  font-size: .9rem;
+.item:hover {
+  background: #d3d3d3;
+  /* OU mantém o mesmo e muda só o shadow */
+  box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
 }

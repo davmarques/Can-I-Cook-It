@@ -1,10 +1,10 @@
-import logo from "../assets/logoCook.svg";
+import logo from "../assets/logo.svg";
 
 function Header() {
     return (
-        <header>
-            <img src={logo} alt="Logo" className="header-img" />
-            <h1>Can I Cook It?</h1>
+        <header className="header h-25 flex justify-center items-center gap-4 bg-(--main-bg) shadow-md">
+            <img src={logo} alt="Logo" className="h-12 -(--secondary-bg)" />
+            <h1 className="text-3xl text-(--secondary-bg)">Can I Cook It?</h1>
         </header>
 
     )
